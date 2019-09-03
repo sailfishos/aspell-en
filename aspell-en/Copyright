@@ -1,15 +1,13 @@
-
-This English word list is comes directly from SCOWL 6 (up to level 60, using
-the src/make-aspell-dict script, http://wordlist.sourceforge.net/) and is
-thus under the same copyright of SCOWL.  The affix file (only included in
-the aspell6 package) is based on the Ispell one which is under the same
-copyright of Ispell.  Part of SCOWL is also based on Ispell thus the Ispell
-copyright is included with the SCOWL copyright.
-
-The collective work is Copyright 2000-2004 by Kevin Atkinson as well
+This English word list is comes directly from SCOWL 2018.04.16 (up to level 60,
+using the speller/make-aspell-dict script, http://wordlist.sourceforge.net/) 
+and is thus under the same copyright of SCOWL.  The affix file (only
+included in the aspell6 package) is based on the Ispell one which is
+under the same copyright of Ispell.  Part of SCOWL is also based on
+Ispell thus the Ispell copyright is included with the SCOWL copyright.
+The collective work is Copyright 2000-2016 by Kevin Atkinson as well
 as any of the copyrights mentioned below:
 
-  Copyright 2000-2004 by Kevin Atkinson
+  Copyright 2000-2016 by Kevin Atkinson
 
   Permission to use, copy, modify, distribute and sell these word
   lists, the associated scripts, the output created from the scripts,
@@ -120,7 +118,7 @@ The 40 level includes words from Alan's 3esl list found in version 4.0
 of his 12dicts package.  Like his other stuff the 3esl list is also in the
 public domain.
 
-The 50 level includes Brian's frequency class 1, words words appearing
+The 50 level includes Brian's frequency class 1, words appearing
 in at least 5 of 12 of the dictionaries as indicated in the 12Dicts
 package, and uppercase words in at least 4 of the previous 12
 dictionaries.  A decent number of proper names is also included: The
@@ -142,20 +140,18 @@ The 55 level includes words from Alan's 2of4brif list found in version
 4.0 of his 12dicts package.  Like his other stuff the 2of4brif is also
 in the public domain.
 
-The 60 level includes Brian's frequency class 0 and all words
-appearing in at least 2 of the 12 dictionaries as indicated by the
-12Dicts package.  A large number of names are also included: The 4,946
-female names and the 3,897 male names from the MWords package.
+The 60 level includes all words appearing in at least 2 of the 12
+dictionaries as indicated by the 12Dicts package.
 
-The 70 level includes the 74,550 common dictionary words and the
-21,986 names list from the MWords package The common dictionary words,
+The 70 level includes Brian's frequency class 0 and the 74,550 common
+dictionary words from the MWords package.  The common dictionary words,
 like those from the 12Dicts package, have had all likely inflections
 added.  The 70 level also included the 5desk list from version 4.0 of
-the 12Dics package which is the public domain
+the 12Dics package which is in the public domain.
 
 The 80 level includes the ENABLE word list, all the lists in the
 ENABLE supplement package (except for ABLE), the "UK Advanced Cryptics
-Dictionary" (UKACD), the list of signature words in from YAWL package,
+Dictionary" (UKACD), the list of signature words from the YAWL package,
 and the 10,196 places list from the MWords package.
 
 The ENABLE package, mainted by M\Cooper <thegrendel@theriver.com>,
@@ -191,18 +187,38 @@ following copyright:
   There are no other restrictions: I would like to see the list
   distributed as widely as possible.
 
-The 95 level includes the 354,984 single words and 256,772 compound
-words from the MWords package, ABLE.LST from the ENABLE Supplement,
-and some additional words found in my part-of-speech database that
-were not found anywhere else.
+The 95 level includes the 354,984 single words, 256,772 compound
+words, 4,946 female names and the 3,897 male names, and 21,986 names
+from the MWords package, ABLE.LST from the ENABLE Supplement, and some
+additional words found in my part-of-speech database that were not
+found anywhere else.
 
 Accent information was taken from UKACD.
 
-My VARCON package was used to create the American, British, and
-Canadian word list. 
+The VarCon package was used to create the American, British, Canadian,
+and Australian word list.  It is under the following copyright:
 
-Since the original word lists used used in the VARCON package came
-from the Ispell distribution they are under the Ispell copyright:
+  Copyright 2000-2016 by Kevin Atkinson
+
+  Permission to use, copy, modify, distribute and sell this array, the
+  associated software, and its documentation for any purpose is hereby
+  granted without fee, provided that the above copyright notice appears
+  in all copies and that both that copyright notice and this permission
+  notice appear in supporting documentation. Kevin Atkinson makes no
+  representations about the suitability of this array for any
+  purpose. It is provided "as is" without express or implied warranty.
+
+  Copyright 2016 by Benjamin Titze
+
+  Permission to use, copy, modify, distribute and sell this array, the
+  associated software, and its documentation for any purpose is hereby
+  granted without fee, provided that the above copyright notice appears
+  in all copies and that both that copyright notice and this permission
+  notice appear in supporting documentation. Benjamin Titze makes no
+  representations about the suitability of this array for any
+  purpose. It is provided "as is" without express or implied warranty.
+
+  Since the original words lists come from the Ispell distribution:
 
   Copyright 1993, Geoff Kuenning, Granada Hills, CA
   All rights reserved.
@@ -225,16 +241,14 @@ from the Ispell distribution they are under the Ispell copyright:
      products derived from this software without specific prior
      written permission.
 
-  THIS SOFTWARE IS PROVIDED BY GEOFF KUENNING AND CONTRIBUTORS ``AS
-  IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
-  LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
-  FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL GEOFF
-  KUENNING OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
-  INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
-  BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
-  LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
-  CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
-  LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
-  ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
-  POSSIBILITY OF SUCH DAMAGE.
-
+  THIS SOFTWARE IS PROVIDED BY GEOFF KUENNING AND CONTRIBUTORS ``AS IS'' AND
+  ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+  IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+  ARE DISCLAIMED.  IN NO EVENT SHALL GEOFF KUENNING OR CONTRIBUTORS BE LIABLE
+  FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+  DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+  OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+  HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+  LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+  OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+  SUCH DAMAGE.

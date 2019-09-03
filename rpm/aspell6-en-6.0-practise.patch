@@ -1,44 +1,0 @@
---- aspell6-en-6.0-0/en_GB-ise-w_accents-only.cwl	2007-08-30 15:32:46.000000000 +0200
-+++ aspell6-en-6.0-0/en_GB-ise-w_accents-only.cwl.pom	2004-08-10 11:01:31.000000000 +0200
-@@ -257,7 +257,7 @@
- d
- s	ingmmelledingpularisation'ss	e
- d
-+s	ingrtière'ssractise'sdsingacticeeauthorisejudgement'ssssurisation's	e
--s	ingrtière'ssractise'sdsingeauthorisejudgement'ssssurisation's	e
- d
- rs
- s	ingtence'ssion
---- aspell6-en-6.0-0/en_GB-ise-wo_accents-only.cwl	2007-08-30 15:35:46.000000000 +0200
-+++ aspell6-en-6.0-0/en_GB-ise-wo_accents-only.cwl.pom	2004-08-10 11:01:31.000000000 +0200
-@@ -257,7 +257,7 @@
- d
- s	ingmmelledingpularisation'ss	e
- d
-+s	ingrtiere'ssractise'sdsingacticeeauthorisecis'sedingjudgement'ssssurisation's	e
--s	ingrtiere'ssractise'sdsingeauthorisecis'sedingjudgement'ssssurisation's	e
- d
- rs
- s	ingtence'ssion
---- aspell6-en-6.0-0/en_GB-ize-w_accents-only.cwl	2007-08-30 15:36:55.000000000 +0200
-+++ aspell6-en-6.0-0/en_GB-ize-w_accents-only.cwl.pom	2004-08-10 11:01:31.000000000 +0200
-@@ -258,7 +258,7 @@
- d
- s	ingmmelledingpularization'ss	e
- d
-+s	ingrtière'ssractise'sdsingacticeeauthorizejudgement'ssssurization's	e
--s	ingrtière'ssractise'sdsingeauthorizejudgement'ssssurization's	e
- d
- rs
- s	ingtence'ssion
---- aspell6-en-6.0-0/en_GB-ize-wo_accents-only.cwl	2007-08-30 15:37:33.000000000 +0200
-+++ aspell6-en-6.0-0/en_GB-ize-wo_accents-only.cwl.pom	2004-08-10 11:01:31.000000000 +0200
-@@ -258,7 +258,7 @@
- d
- s	ingmmelledingpularization'ss	e
- d
-+s	ingrtiere'ssractise'sdsingacticeeauthorizecis'sedingjudgement'ssssurization's	e
--s	ingrtiere'ssractise'sdsingeauthorizecis'sedingjudgement'ssssurization's	e
- d
- rs
- s	ingtence'ssion
