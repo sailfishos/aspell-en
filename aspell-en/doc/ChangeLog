@@ -1,9 +1,33 @@
+2015.04.24:
+
+  Updated to SCOWL 2015.03.24 which added some new words.
+
+2015.02.15:
+
+  Updated to SCOWL 2015.02.15 which added a large number of new words
+  such as "inbox", "smartphone", and "selfie" and removed some
+  problematic words.
+
+7.1: January 6, 2011
+
+  Updated to SCOWL 7.1 which corrected several errors and also added
+  several now common proper names and some other words now in
+  common use.
+
+7.0: December 27, 2010
+
+  Updated to SCOWL 7 which was created with a new version of Varcon
+  which corrected many errors, especially in the British and Canadian
+  dictionaries.  Numerous other corrections are also included.
+
+  Added en_CA-variant_* and en_GB-variant_* auxiliary dictionaries.
+
 6.0: August 10, 2004
 
   Updated to SCOWL 6 which avoided using the original Ispell
   dictionaries as they were a source of too many errors, among other
   changes.
-  
+
   Added en_GB-ize dictionary (British with "ize" spelling).
 
   Added en-variant_* auxiliary dictionaries.

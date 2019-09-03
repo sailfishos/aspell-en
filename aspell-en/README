@@ -1,11 +1,11 @@
 GNU Aspell 0.60 English Dictionary Package
-Version 6.0-0
-2004-08-10
+Version 2018.04.16-0
+2018-04-16
 Original Word List By:
   Kevin Atkinson <kevina at gnu org>
 Copyright Terms: Copyrighted (see the file Copyright for the exact terms)
-Wordlist URL: http://wordlist.sourceforge.net/
-Source Verson: 6
+Wordlist URL: http://wordlist.aspell.net/
+Source Version: 2018.04.16
 This word list is considered both complete and accurate.
 
 This is the English dictionary for Aspell.  It requires Aspell 
@@ -47,11 +47,17 @@ setting the LANG environmental variable to en or running Aspell
 with "--lang=en".  You may also chose the dictionary directly
 with the "-d" or "--master" option of Aspell.  You can chose from any of
 the following dictionaries:
-  en-variant_0 (english-variant_0)
-  en-variant_1 (english-variant_1)
+  en-variant_0 (american-variant_0 en_US-variant_0 english-variant_0)
+  en-variant_1 (american-variant_1 en_US-variant_1 english-variant_1)
   en-variant_2 (english-variant_2)
   en-w_accents (english-w_accents)
   en-wo_accents (en english english-wo_accents)
+  en_AU-variant_0 (australian-variant_0)
+  en_AU-variant_1 (australian-variant_1)
+  en_AU-w_accents (australian-w_accents)
+  en_AU-wo_accents (australian australian-wo_accents en_AU)
+  en_CA-variant_0 (canadian-variant_0)
+  en_CA-variant_1 (canadian-variant_1)
   en_CA-w_accents (canadian-w_accents)
   en_CA-wo_accents (canadian canadian-wo_accents en_CA)
   en_GB-ise-w_accents (british-ise-w_accents british-w_accents 
@@ -61,6 +67,8 @@ the following dictionaries:
                         en_GB-wo_accents)
   en_GB-ize-w_accents (british-ize-w_accents)
   en_GB-ize-wo_accents (british-ize british-ize-wo_accents en_GB-ize)
+  en_GB-variant_0 (british-variant_0)
+  en_GB-variant_1 (british-variant_1)
   en_US-w_accents (american-w_accents)
   en_US-wo_accents (american american-wo_accents en_US)
 Whereas the names in parentheses are alternate names for the
@@ -94,8 +102,7 @@ This word list package supports the following dialects of English:
   Canadian (en_CA)
 
 In addition generic English (en) is supported which is a combination
-of all the above (which turns out to be just a combination of en_US
-with en_GB-ise).
+of all the above.
 
 For each dialect there is the option to either strip accents (for
 example cafe) or keep them (for example café).  The default is to
@@ -138,26 +145,30 @@ British English add the line:
 
 to ".aspell.conf".
 
-Great care has been taken so that that only one spelling for any
-particular word is included in the main dictionary.  When two variants
-were considered equal I randomly picked one for inclusion in the main
-word list.  Unfortunately this means that my choice in how to spell a
-word may not match your choice.  For this reason the following
-auxiliary dictionaries are provided:
+Great care has been taken so that that, for the most part, only one
+spelling for any particular word is included in the main dictionary.
+When two variants were considered equal I randomly picked one for
+inclusion in the main word list.  Unfortunately this means that my
+choice in how to spell a word may not match your choice.  For this
+reason the following auxiliary dictionaries are provided:
 
-  en-variant_0
-  en-variant_1
+  en_US-variant_0
+  en_US-variant_1
+  en_GB-variant_0
+  en_GB-variant_1
+  en_CA-variant_0
+  en_CA-variant_1
   en-variant_2
 
 These dictionaries are meant to be used in addition to one of the
 standard dictionaries. To specify them use the "extra-dicts" option.
-The "en-variant_0" dictionary includes most variants which are
-considered almost equal, "en-variant_1" includes variants which are
+The "en_*-variant_0" dictionaries includes most variants which are
+considered almost equal, "variant_1" includes variants which are
 generally considered acceptable, and "variant_2" contains variants
-which are seldom used.  It is only necessary to use on of these
-dictionaries since "en-variant_1" includes all the words in
-"en-variant_0" and "en-variant_2" includes all the words in both
-"en-variant_0" and "en-variant_1".
+which are seldom used and may not even be considered correct.  It is
+only necessary to use on of these dictionaries since, for example,
+"en_US-variant_1" includes all the words in "en_US-variant_0".
+
 
 UPGRADING FROM ASPELL6-EN-0.01
 
